@@ -1,0 +1,115 @@
+.play-btn{
+    padding: 10px 20px 10px 20px;
+     border-radius: 5px;
+    font-size: 18px;
+    border: 0px;
+    margin-left: 10px;
+    background: linear-gradient(to right, 
+    #4F46E5 10%,    
+    #87CEEB 30%,     
+    #2ED573 90%      
+  );
+  margin-right: 5px; 
+  color: #2D3748; 
+  }
+.next-btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: 0px;
+    margin-left: 10px;
+    background: linear-gradient(to right, 
+    #2c2966 10%,    
+    #030c0f 30%,     
+    #8d62b8 90%      
+  );
+  margin-right: 5px; 
+
+  }
+.previous-btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: 0px;
+    margin-left: 10px;
+    background: linear-gradient(to right, 
+    #c13baa 10%,    
+    #3962a9 30%,     
+    #ba6058 90%      
+  );
+ 
+  }
+  .audio-input{
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(to right, 
+    #c13baa 10%,    
+    #fce113 30%,     
+    #df1b09 90%      
+ 
+    );
+  }
+  .upload-container-main{
+    width: 500px;
+    padding: 50px 20px 100px 20px;
+    background-color: #2a93e9;
+   
+    margin-top: 50px;
+    border: 4px solid #fce113;
+  }
+  .upload-container{
+    width: 500px;
+ display: flex;
+ margin-bottom: 50px;
+ justify-content: center;
+ margin-top: 10px;
+  }
+
+.upload-title{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 50px;
+  
+  color: #141416;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.audio-number{
+  font-size: 32px;
+  color: darksalmon;
+  background-color: #87CEEB;
+  padding: 30px;
+  border-radius: 10px;
+}
+.ul-container{
+  text-decoration: none;
+  display: grid;
+   
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.li-of-audio{
+  display: flex;
+  list-style: none;
+ 
+}
+.audio-player-container{
+  width: 600px;
+  background-color: antiquewhite;
+  border: 4px yellow solid;
+  margin-top: 50px;
+  padding: 20px;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.player-container{
+  display: flex;
+  justify-content: center;
+}

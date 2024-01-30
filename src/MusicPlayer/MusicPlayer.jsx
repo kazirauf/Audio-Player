@@ -81,7 +81,7 @@ const MusicPlayer = () => {
      </div>
     </div>
      <div className="audio-player-container">
-     <h1 className="upload-title">All Audio Mp3 PalyList</h1>
+     <h1 className="upload-title">All Audio Mp3 Playlist</h1>
      <div className="player-container">
      <ul className="ul-container">
         {playlist.map((track, index) => (
